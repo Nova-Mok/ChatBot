@@ -18,7 +18,7 @@ const interRegular = fetch(
 ).then(res => res.arrayBuffer())
 
 const interBold = fetch(
-  new URL('../../../assets/fonts/Inter-Bold.woff', import.meta.url)
+  new URL('../../../assets/fonts/Inter-Regular.woff', import.meta.url)
 ).then(res => res.arrayBuffer())
 
 interface ImageProps {
